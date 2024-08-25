@@ -1,0 +1,14 @@
+.zodiacItemsList{
+    /* background-color: red; */
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    gap: 10px;
+
+    .zodiacItemContainer{
+        text-decoration: none;
+        display: flex;
+        width: 45vw;
+    }
+}
